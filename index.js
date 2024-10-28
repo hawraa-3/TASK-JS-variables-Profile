@@ -10,10 +10,15 @@
  */
 
 // Part 1 answer 👇🏻 ...
+const username="Hawraa AL-Mahdi";
+const birth="10/12/1997";
+const hobby="diving";
+const funFact="I LOVE CODDED";
+const image ="https://i.pinimg.com/550x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg"
 
-
-
-
+console.log( `my name is ${username}`);
+console.log(`I am ${birth}`);
+console.log(`my hobby is ${hobby}`);
 
 
 /**
@@ -31,8 +36,9 @@
 
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
-// const hobbyString =
-
+const fullNameString =`my name is ${username}`;
+const yearOfBirthString = `I am ${2024 - birth}`;
+const hobbyString =`my hobby is ${hobby}`;
 
 
 
@@ -45,14 +51,19 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars = stars + 1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars = stars - 1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars +2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars - 2;
 }
+
