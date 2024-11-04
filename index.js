@@ -11,7 +11,7 @@
 
 // Part 1 answer 👇🏻 ...
 const username="Hawraa AL-Mahdi";
-const birth="10/12/1997";
+const birth="1997";
 const hobby="diving";
 const funFact="I LOVE CODDED";
 const image ="https://i.pinimg.com/550x/8d/52/c5/8d52c5c35382908832ffedb21c1e63b0.jpg"
@@ -20,7 +20,7 @@ console.log( `my name is ${username}`);
 console.log(`I am ${birth}`);
 console.log(`my hobby is ${hobby}`);
 
-
+//C:\Users\User\development\TASK-JS-variables-Profile\index.js
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
